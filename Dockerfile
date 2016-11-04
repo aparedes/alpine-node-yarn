@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:base-7.0.0
+FROM mhart/alpine-node:base
 
 RUN apk update \
   && apk add curl bash binutils tar \
