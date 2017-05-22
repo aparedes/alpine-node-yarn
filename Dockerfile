@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:base
+FROM mhart/alpine-node:latest
 
 ENV PATH /root/.yarn/bin:$PATH
 
