@@ -8,4 +8,4 @@ RUN apk update \
   && /bin/bash \
   && touch ~/.bashrc \
   && curl -o- -L https://yarnpkg.com/install.sh | bash \
-  && apk del curl tar binutils
+  && apk del git curl tar binutils
